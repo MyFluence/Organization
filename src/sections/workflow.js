@@ -8,31 +8,32 @@ import ArrowOdd from "assets/arrowOdd.svg";
 import ArrowEven from "assets/arrowEven.svg";
 
 const data = [
+  // ! Change
   {
     id: 1,
-    title: "Set disbursement Instructions",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
+    title: "Lorem ipsum dolor",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut",
   },
   {
     id: 2,
-    title: "Assembly retrieves funds from your account",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
+    title: "Lorem ipsum dolor sit amet, consetetur",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut",
   },
   {
     id: 3,
-    title: "Assembly initiates disbursement",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
+    title: "Lorem ipsum dolor",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut",
   },
   {
     id: 4,
-    title: "Customer receives funds payment",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
+    title: "Lorem ipsum dolor sit",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut",
   },
 ];
 
 export default function WorkFlow() {
   return (
-    <section sx={styles.workflow}>
+    <section sx={styles.workflow} id="function">
       <Container>
         <SectionHeader
           slogan="Whats the function"

@@ -32,7 +32,7 @@ const data = [
       {
         id: 1,
         name: "linkedIn",
-        path: "#",
+        path: "https://www.linkedin.com/in/jasch-dhungel-97b842255",
         icon: <FaLinkedin />,
       },
       {
@@ -52,7 +52,7 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: "facebook",
+        name: "linkedIn",
         path: "https://www.linkedin.com/in/martin-mohammed-30019a207",
         icon: <FaLinkedin />,
       },
@@ -170,7 +170,8 @@ const data = [
 
 export default function TeamSection() {
   return (
-    <section>
+    // ! Change
+    <section id="team" sx={styles.teamSection}>
       <Container>
         <SectionHeader
           slogan="our team"
@@ -195,6 +196,10 @@ export default function TeamSection() {
 }
 
 const styles = {
+  // ! Change
+  teamSection: {
+    paddingTop: "25px",
+  },
   grid: {
     mt: [0, null, -6, null, -4],
     gridGap: ["35px 0px", null, 0, null, null, "30px 35px"],
